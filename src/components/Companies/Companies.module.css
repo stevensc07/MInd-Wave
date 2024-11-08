@@ -1,0 +1,44 @@
+.carousel-container {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.carousel-track-wrapper {
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  flex-direction: row;
+  animation: scroll 20s linear infinite;
+}
+
+.carousel-item {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.company-logo {
+  width: 100%;
+  height: auto;
+  transform: scale(0.45);
+}
+
+/* Animación continua */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

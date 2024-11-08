@@ -1,0 +1,33 @@
+.main {
+  height: 100vh;
+
+  flex-direction: column;
+  gap: 30px;
+  overflow: auto;
+}
+
+.mainContent {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+}
+.title {
+  color: #091d3e;
+  font-size: 50px;
+  display: flex;
+  align-self: start;
+}
+.subtitle {
+  color: #091d3e;
+  font-size: 30px;
+  display: flex;
+  align-self: start;
+}
+.parragraph {
+  color: #091d3e;
+  display: flex;
+  align-self: start;
+}
