@@ -38,7 +38,7 @@ const CompaniesCarousel = () => {
   return (
     <div className="relative overflow-hidden py-8 bg-white">
       <h2 className="text-center text-xl font-semibold mb-6">
-        Las mejores empresas confían en MindWave para{" "}
+        Las mejores empresas confían en MindWaves para{" "}
         <b>cuidar la salud mental de sus colaboradores</b>
       </h2>
       <div className="flex items-center justify-center space-x-4 ">
