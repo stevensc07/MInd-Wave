@@ -107,7 +107,7 @@ const Home = () => {
               color="blue-gray"
               className="mb-2 text-center md:text-left"
             >
-              Somos eficaz
+              Somos eficaces
             </Typography>
             <Typography color="gray" className="font-normal text-justify px-5">
               Miles de personas se han beneficiado de la terapia (¡solo consulta
@@ -117,7 +117,7 @@ const Home = () => {
             </Typography>
           </div>
         </div>
-        <CompaniesCarousel></CompaniesCarousel>
+        <CompaniesCarousel />
         <AppDownloadComponent />
       </div>
       <Footer></Footer>

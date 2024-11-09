@@ -8,11 +8,11 @@ import {
 
 const HorizontalCard = () => {
   return (
-    <Card className="w-4/5 m-20 flex-row">
+    <Card className="w-full max-w-7xl mx-auto my-10 flex flex-col md:flex-row">
       <CardHeader
         shadow={false}
         floated={false}
-        className="m-0 w-2/5 shrink-0 rounded-r-none"
+        className="w-full md:w-2/5 h-48 md:h-auto md:rounded-r-none flex-shrink-0 -m-1"
       >
         <img
           src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
@@ -20,16 +20,23 @@ const HorizontalCard = () => {
           className="h-full w-full object-cover"
         />
       </CardHeader>
-      <CardBody>
-        <Typography variant="h4" color="blue-gray" className="mb-2">
+      <CardBody className="p-4 md:p-8 lg:p-10">
+        <Typography
+          variant="h4"
+          color="blue-gray"
+          className="mb-2 text-center md:text-left"
+        >
           MindWave para empresas
         </Typography>
-        <Typography color="gray" className="mb-8 font-normal">
+        <Typography
+          color="gray"
+          className="mb-6 font-normal text-center md:text-left"
+        >
           Cuida el bienestar de tus colaboradores a través de la terapia
           psicológica online, actividades de bienestar y contenidos exclusivos
           de salud mental.
         </Typography>
-        <ul className="text-black text-left mt-6 list-disc list-inside space-y-2 px-4 md:px-8 lg:px-16 mb-5">
+        <ul className="text-black text-left list-disc list-inside space-y-2 px-4 md:px-6 lg:px-8 mb-5">
           <li>Solución integral para el 100% de tus colaboradores.</li>
           <li>
             Dashboard de métricas e insights para mejorar la cultura laboral de
@@ -40,8 +47,10 @@ const HorizontalCard = () => {
             psicosociales.
           </li>
         </ul>
-        <p className="mb-16">¡Crea un mejor ambiente laboral con MindWave!</p>
-        <a href="#" className="inline-block">
+        <p className="mb-8 text-center md:text-left">
+          ¡Crea un mejor ambiente laboral con MindWave!
+        </p>
+        <div className="flex justify-center md:justify-start">
           <Button variant="text" className="flex items-center gap-2">
             Learn More
             <svg
@@ -59,7 +68,7 @@ const HorizontalCard = () => {
               />
             </svg>
           </Button>
-        </a>
+        </div>
       </CardBody>
     </Card>
   );

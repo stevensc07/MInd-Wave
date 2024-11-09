@@ -31,7 +31,6 @@ const CompaniesCarousel = () => {
       logos[index],
       logos[(index + 1) % logos.length],
       logos[(index + 2) % logos.length],
-      logos[(index + 4) % logos.length],
     ];
   };
 
