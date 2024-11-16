@@ -30,7 +30,7 @@ const TestimonialsCarousel = () => {
   ];
 
   return (
-    <div className="bg-white py-12">
+    <div className="bg-white py-12 max-w-[300px] sm:max-w-2xl mx-auto">
       <div className="max-w-5xl mx-auto px-4 lg:px-6 text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-[#091D3E] max-w-[300px] sm:max-w-3xl mx-auto">
           Historias de Transformación Gracias a la Terapia Online de MindWave
