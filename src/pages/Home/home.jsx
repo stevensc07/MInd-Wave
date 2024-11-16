@@ -130,10 +130,9 @@ const Home = () => {
         <div id="faq">
           <FAQ />
         </div>
-        <div id="testimonios">
-          <TestimonialsCarousel />
-          <AppDownloadComponent />
-        </div>
+        <div id="testimonios"></div>
+        <TestimonialsCarousel />
+        <AppDownloadComponent />
       </div>
       <Footer></Footer>
     </div>

@@ -7,7 +7,7 @@ const FAQ = () => {
     {
       question: "¿Qué es MindWave?",
       answer:
-        "MindWave es una plataforma de terapia en línea que conecta a personas con profesionales de la salud mental, ofreciendo sesiones accesibles y personalizadas.",
+        "MindWave es una solución digital que busca transforma la forma en que las empresas comprenden y apoyan a sus empleados, convirtiendo el bienestar emocional en un pilar central de la estrategia empresarial. ",
     },
     {
       question: "¿Cómo puedo agendar una sesión?",

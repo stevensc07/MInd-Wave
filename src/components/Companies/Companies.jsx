@@ -40,7 +40,7 @@ const CompaniesCarousel = () => {
         Las mejores empresas confían en MindWaves para{" "}
         <b>cuidar la salud mental de sus colaboradores</b>
       </h2>
-      <div className="flex items-center justify-center space-x-4 ">
+      {/* <div className="flex items-center justify-center space-x-4 ">
         {getVisibleLogos().map((logo, idx) => (
           <div key={idx} className="flex-shrink-0 w-24 h-24">
             <img
@@ -50,7 +50,7 @@ const CompaniesCarousel = () => {
             />
           </div>
         ))}
-      </div>
+      </div>*/}
     </div>
   );
 };

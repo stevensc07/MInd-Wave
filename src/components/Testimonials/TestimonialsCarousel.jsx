@@ -30,38 +30,38 @@ const TestimonialsCarousel = () => {
   ];
 
   return (
-    <div className="bg-white my-16 mb-20">
-      <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold text-[#091D3E]">
+    <div className="bg-white py-12">
+      <div className="max-w-5xl mx-auto px-4 lg:px-6 text-center">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[#091D3E] max-w-[300px] sm:max-w-3xl mx-auto">
           Historias de Transformación Gracias a la Terapia Online de MindWave
         </h2>
-        <p className="text-lg text-[#091D3E] mt-4">
+        <p className="text-base sm:text-lg mt-4 text-[#091D3E] max-w-[300px] sm:max-w-2xl mx-auto">
           Estos testimonios nos reafirman que estamos cambiando el mundo,{" "}
           <b>una vida a la vez</b>.
         </p>
         <div className="mt-8">
           <Swiper
-            modules={[Autoplay]} // Asegúrate de incluir el módulo
-            autoplay={{ delay: 1000, disableOnInteraction: false }} // Configuración de autoplay
-            loop={true} // Hace que el carrusel sea infinito
+            modules={[Autoplay]}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            loop={true}
             spaceBetween={24}
-            slidesPerView={3}
+            slidesPerView={1}
             breakpoints={{
-              640: { slidesPerView: 1 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
+              640: { slidesPerView: 1, spaceBetween: 16 },
+              768: { slidesPerView: 2, spaceBetween: 16 },
+              1024: { slidesPerView: 3, spaceBetween: 24 },
             }}
             className="testimonial-swiper"
           >
             {testimonials.map((testimonial, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-[#FBDDD9] shadow-lg rounded-lg p-6">
-                  <p className="text-gray-800 text-lg mb-4">
+                <div className="bg-[#FBDDD9] shadow-lg rounded-lg p-4 md:p-6 max-w-[300px] mx-auto">
+                  <p className="text-gray-800 text-sm sm:text-base mb-4 text-center">
                     {testimonial.text}
                   </p>
                   <div className="flex justify-center">
                     <img
-                      className="w-16 h-16 rounded-full"
+                      className="w-12 h-12 sm:w-16 sm:h-16 rounded-full"
                       src={testimonial.img}
                       alt="testimonial"
                     />

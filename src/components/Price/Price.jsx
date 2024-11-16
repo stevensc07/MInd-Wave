@@ -99,7 +99,7 @@ const PricingCard = () => {
               className="mt-6 flex justify-center gap-1 text-7xl font-normal"
             >
               <span className="mt-2 text-4xl">$</span>
-              {plan.price} <span className="self-end text-4xl">/mo</span>
+              {plan.price} <span className="self-end text-2xl">/mo</span>
             </Typography>
           </CardHeader>
           <CardBody className="p-0">
