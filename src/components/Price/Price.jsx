@@ -30,7 +30,7 @@ const PricingCard = () => {
   const plans = [
     {
       name: "Basic",
-      price: "30",
+      price: "80K",
       features: [
         "Test inicial",
         "Sesiones individuales: x disp",
@@ -41,7 +41,7 @@ const PricingCard = () => {
     },
     {
       name: "Premium",
-      price: "60",
+      price: "100K",
       features: [
         "Test inicial",
         "Sesiones individuales: 5",
@@ -55,7 +55,7 @@ const PricingCard = () => {
     },
     {
       name: "Pro",
-      price: "90",
+      price: "130K",
       features: [
         "Test inicial",
         "Sesiones individuales: a demanda",

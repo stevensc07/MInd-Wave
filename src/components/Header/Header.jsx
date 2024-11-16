@@ -68,6 +68,7 @@ const Header = () => {
         <div className=" m-10 flex items-center justify-between text-blue-gray-900">
           <div className="-mt-10">
             <img
+              href="#home"
               alt="nature"
               className="h-[3rem] w-[3rem] object-cover object-center"
               src={Logo}
@@ -83,7 +84,7 @@ const Header = () => {
 
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
-            <div className="flex items-center gap-x-1">
+            {/*<div className="flex items-center gap-x-1">
               <Button
                 variant="text"
                 size="sm"
@@ -98,7 +99,7 @@ const Header = () => {
               >
                 <span>Sign in</span>
               </Button>
-            </div>
+            </div>*/}
             <IconButton
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
