@@ -4,13 +4,16 @@ import Header from "../../components/Header";
 import AppDownloadComponent from "../../components/Card";
 import LearnMore from "../../components/Learn-More";
 import CompaniesCarousel from "../../components/Companies";
+import Price from "../../components/Price";
+import TestimonialsCarousel from "../../components/Testimonials";
+import FAQ from "../../components/FAQ";
 import Footer from "../../components/Footer";
 import { Typography, Card } from "@material-tailwind/react";
 const Home = () => {
   return (
     <div className={styles.main}>
       <Header />
-      <div className={styles.mainContent}>
+      <div id="home" className={styles.mainContent}>
         <div
           className={`flex flex-col  w-full h-[28vh] md:h-[50vh] lg:h-[70rem] bg-no-repeat bg-cover bg-center rounded-lg`}
           style={{ backgroundImage: `url(${imgCenter})` }}
@@ -23,7 +26,7 @@ const Home = () => {
           <p
             className={`${styles.parragraph} text-sm sm:text-base md:text-lg lg:text-xl my-5`}
           >
-            Un espacio para ser y sentir en libertad
+            Transforma tu mente, impulsa tu vida.
           </p>
           <div className="hidden w-1/4  my-10 flex-col items-center justify-center p-6 bg-[#FBDDD9] rounded-lg shadow-md sm:flex md:flex-row">
             <div className="flex items-center gap-4 max-w-lg mx-auto">
@@ -65,8 +68,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div id="empresas">
+          <LearnMore id="empresas" />
+        </div>
 
-        <LearnMore />
         <div className="flex flex-col md:flex-row gap-6 md:gap-3 py-12">
           {/* Primer bloque */}
           <div className="mx-auto max-w-xs sm:max-w-md md:max-w-sm lg:max-w-md">
@@ -117,8 +122,18 @@ const Home = () => {
             </Typography>
           </div>
         </div>
-        <CompaniesCarousel />
-        <AppDownloadComponent />
+        <div id="precios">
+          {" "}
+          <CompaniesCarousel />
+          <Price />
+        </div>
+        <div id="faq">
+          <FAQ />
+        </div>
+        <div id="testimonios">
+          <TestimonialsCarousel />
+          <AppDownloadComponent />
+        </div>
       </div>
       <Footer></Footer>
     </div>

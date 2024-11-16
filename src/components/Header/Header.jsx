@@ -25,7 +25,7 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#empresas" className="flex items-center">
           Terapia para empresas
         </a>
       </Typography>
@@ -35,7 +35,7 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#precios" className="flex items-center">
           Precios
         </a>
       </Typography>
@@ -45,7 +45,7 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#faq" className="flex items-center">
           Preguntas frecuentes
         </a>
       </Typography>
@@ -55,7 +55,7 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#testimonios" className="flex items-center">
           Opiniones
         </a>
       </Typography>
@@ -74,7 +74,7 @@ const Header = () => {
             />
             <Typography
               as="a"
-              href="#"
+              href="#home"
               className=" -ml-2 cursor-pointer py-1.5 font-medium"
             >
               MindWave

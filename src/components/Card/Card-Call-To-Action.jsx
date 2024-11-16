@@ -17,7 +17,7 @@ const AppDownloadComponent = () => {
             privada.
           </p>
           {/* Botones de descarga */}
-          <div className="flex justify-center gap-4 mt-6 bg-[#bcdcda] p-4 rounded-r-[50px] -ml-6">
+          <div className="flex justify-center gap-4 mt-6 bg-[#1dbed2] p-4 rounded-r-[50px] -ml-6">
             <a
               href="#"
               className="flex items-center bg-black px-4 py-2 rounded-lg text-white hover:bg-gray-800 focus:outline-none"
