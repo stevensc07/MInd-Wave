@@ -1,2 +1,2 @@
-import FAQ from "./FAQ.JSX";
+import FAQ from "./FAQ";
 export default FAQ;
